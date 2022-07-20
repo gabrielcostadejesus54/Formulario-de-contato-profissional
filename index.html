@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário de Contato Profissional</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Formulário de Contato</legend>
+                <input type="text" name="nome" placeholder="Qual é o seu nome...">
+                <input type="email" name="email" placeholder="Qual é o seu e-mail...">
+                <select name="idade">
+                    <option selected disabled>Qual é a sua idade</option>
+                    <option>+12</option>
+                    <option>+18</option>
+                    <option>+60</option>
+                </select>
+                <h2>Qual é a sua cidade?</h2>
+                <div class="container-radio">
+                    <div class="wraper-radio">
+                        <input type="radio" name="cidade"><span>Goiânia</span>
+                    </div>
+                    <div class="wraper-radio">
+                        <input type="radio" name="cidade"><span>Senador Canedo</span>
+                    </div>
+                    <div class="wraper-radio">
+                        <input type="radio" name="cidade"><span>Aparecida de Goiânia</span>
+                    </div>
+                </div><!--container-radio-->
+
+                <h2>O que você gosta de comer?</h2>
+                <div class="container-checkbox">
+                    <div class="wraper-checkbox">
+                        <input type="checkbox" name="comida"><span>Macarrão</span>
+                    </div>
+                    <div class="wraper-checkbox">
+                        <input type="checkbox" name="comida"><span>Kiwi</span>
+                    </div>
+                    <div class="wraper-checkbox">
+                        <input type="checkbox" name="comida"><span>Açai</span>
+                    </div>
+                    <div class="wraper-checkbox">
+                        <input type="checkbox" name="comida"><span>Sorvete</span>
+                    </div>
+                </div><!--container-checkbox-->
+                <textarea placeholder="Mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>
